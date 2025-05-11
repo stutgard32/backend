@@ -34,6 +34,18 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "catalog"
+    },
+    "fullDescription": {
+      "type": "text"
+    },
+    "fullTitle": {
+      "type": "text"
+    },
+    "production": {
+      "type": "string"
+    },
+    "productionDescription": {
+      "type": "text"
     }
   }
 }

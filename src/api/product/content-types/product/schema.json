@@ -36,6 +36,12 @@
       "relation": "manyToOne",
       "target": "api::catalog.catalog",
       "inversedBy": "products"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "specifications": {
+      "type": "richtext"
     }
   }
 }
